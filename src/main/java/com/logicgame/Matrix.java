@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
  * Date: 6/30/2014
  * Time: 9:21 PM
  *
- * @author Si
+ * @author barbarous
  */
 public class Matrix {
 

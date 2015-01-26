@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
  * Date: 6/30/2014
  * Time: 3:04 PM
  *
- * @author Si
+ * @author barbarous
  */
 public class Shape {
     Matrix matrix;

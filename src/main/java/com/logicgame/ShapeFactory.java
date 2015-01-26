@@ -8,7 +8,7 @@ package com.logicgame;
  * Date: 7/1/2014
  * Time: 10:24 PM
  *
- * @author Si
+ * @author barbarous
  */
 public class ShapeFactory {
 

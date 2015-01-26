@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * Date: 6/30/2014
  * Time: 3:36 PM
  *
- * @author Si
+ * @author barbarous
  */
 public class Main{
     protected final static Logger logger = LoggerFactory.getLogger(Main.class);

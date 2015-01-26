@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Date: 8/6/2014
  * Time: 9:07 PM
  *
- * @author Si
+ * @author barbarous
  */
 public class SimpleAssembleStrategy {
     protected final static Logger logger = LoggerFactory.getLogger(SimpleAssembleStrategy.class);
