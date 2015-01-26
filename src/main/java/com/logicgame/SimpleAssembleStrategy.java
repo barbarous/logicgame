@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 1999-2014. All Rights Reserved.
  */
-package com.freespeech;
+package com.logicgame;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -43,7 +43,7 @@ public class SimpleAssembleStrategy {
      * @param i index of the next shape that has not been joined yet.
      */
     protected boolean join(Shape shape, int i){
-
+       return false;
     }
 
 

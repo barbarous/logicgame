@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 1999-2014. All Rights Reserved.
  */
-package com.freespeech;
+package com.logicgame;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
