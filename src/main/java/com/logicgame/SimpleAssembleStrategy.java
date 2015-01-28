@@ -33,7 +33,7 @@ public class SimpleAssembleStrategy {
     public void assemble(){
         asm();
     }
-    private void asm(){
+    protected void asm(){
 
     }
 

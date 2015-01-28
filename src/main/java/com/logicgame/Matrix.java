@@ -137,18 +137,20 @@ public class Matrix {
     }
 
     /**
-     * True, if matrix contains only 1.
-     * @return true if array has zero
+     * True, if array has no overlapped point.
+     * @return true if array has only 1
      */
     public boolean hasOnlyOne() {
         List<Integer> flatten = flatten3D(matrix);
-        return !(flatten.contains(0) || flatten.contains(2));
+        for (Integer point : flatten)
+            if (point != 1) return false;
+        return true;
     }
 
 
     /**
-     * True, if matrix contains only 1.
-     * @return true if array has zero
+     * True, if matrix contains overlapped point.
+     * @return true if array has 2 overlapped points
      */
     public boolean has2() {
         List<Integer> flatten = flatten3D(matrix);
