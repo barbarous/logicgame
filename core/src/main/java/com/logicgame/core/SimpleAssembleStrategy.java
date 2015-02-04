@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 1999-2014. All Rights Reserved.
  */
-package com.logicgame;
+package com.logicgame.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,8 +33,15 @@ public class SimpleAssembleStrategy {
     public void assemble(){
         asm();
     }
-    protected void asm(){
-
+    private void asm(){
+        Shape sh0 = shapes.get(0);
+        Shape sh1 = shapes.get(1);
+        sh1.rotateY();
+        sh1.rotateX();
+        sh1.rotateX();
+        Shape shape = sh0.join(sh1);
+        if (shape.isAssembled())
+            System.out.println("!");
     }
 
     /**

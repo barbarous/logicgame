@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 1999-2014. All Rights Reserved.
  */
-package com.logicgame;
+package com.logicgame.core;
 
 /**
  * <class>ShapeFactory</class> class.
